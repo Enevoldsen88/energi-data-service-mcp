@@ -45,14 +45,15 @@ https://YOUR-HOST/mcp
 ## Connect in Claude
 
 **Claude Pro or Max**
-2. Open Claude and go to Customize → Connectors.
-3. Select + → Add custom connector.
-4. Enter the deployed HTTPS endpoint ending in /mcp.
-5. Leave OAuth credentials empty because the server uses no authentication.
-6. Select Add to save the connector.
-7. Start a new conversation.
-8. Open the tools or connectors menu and enable the custom connector.
-9. Ask Claude to use one of the available energy-data tools.
+
+1. Open Claude and go to Customize → Connectors.
+2. Select + → Add custom connector.
+3. Enter the deployed HTTPS endpoint ending in /mcp.
+4. Leave OAuth credentials empty because the server uses no authentication.
+5. Select Add to save the connector.
+6. Start a new conversation.
+7. Open the tools or connectors menu and enable the custom connector.
+8. Ask Claude to use one of the available energy-data tools.
 
 Example:
 
