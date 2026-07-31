@@ -42,6 +42,32 @@ https://YOUR-HOST/mcp
 5. Select **Scan tools**, review the three read-only tools, and create the app.
 6. Start a new conversation and enable the app from the tools menu.
 
+**Connect in Claude**
+
+1. Claude Pro or Max
+2. Open Claude and go to Customize → Connectors.
+3. Select + → Add custom connector.
+4. Enter the deployed HTTPS endpoint ending in /mcp.
+5. Leave OAuth credentials empty because the server uses no authentication.
+6. Select Add to save the connector.
+7. Start a new conversation.
+8. Open the tools or connectors menu and enable the custom connector.
+9. Ask Claude to use one of the available energy-data tools.
+
+Example:
+
+Fetch the CO₂ forecast and day-ahead electricity prices for DK1 and identify the best time to consume 1,000 kWh.
+
+**Claude Team or Enterprise**
+An Owner or Primary Owner must first add the connector:
+
+1. Go to Organization settings → Connectors.
+2. Select Add.
+3. Hover over Custom and select Web.
+4. Enter the deployed HTTPS endpoint ending in /mcp.
+5. Leave the optional OAuth Client ID and Client Secret empty.
+6. Select Add.
+
 ## Example requests
 
 - "Find Energinet datasets about electricity prices."
