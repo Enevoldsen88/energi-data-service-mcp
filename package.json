@@ -1,0 +1,20 @@
+{
+  "name": "energi-data-service-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only MCP server for Energinet's Energi Data Service",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "express": "5.1.0",
+    "zod": "3.25.76"
+  }
+}
