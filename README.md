@@ -42,9 +42,9 @@ https://YOUR-HOST/mcp
 5. Select **Scan tools**, review the three read-only tools, and create the app.
 6. Start a new conversation and enable the app from the tools menu.
 
-**Connect in Claude**
+## Connect in Claude
 
-1. Claude Pro or Max
+**Claude Pro or Max**
 2. Open Claude and go to Customize → Connectors.
 3. Select + → Add custom connector.
 4. Enter the deployed HTTPS endpoint ending in /mcp.
@@ -59,8 +59,8 @@ Example:
 Fetch the CO₂ forecast and day-ahead electricity prices for DK1 and identify the best time to consume 1,000 kWh.
 
 **Claude Team or Enterprise**
-An Owner or Primary Owner must first add the connector:
 
+An Owner or Primary Owner must first add the connector:
 1. Go to Organization settings → Connectors.
 2. Select Add.
 3. Hover over Custom and select Web.
