@@ -57,7 +57,7 @@ https://YOUR-HOST/mcp
 
 Example:
 
-Fetch the CO₂ forecast and day-ahead electricity prices for DK1 and identify the best time to consume 1,000 kWh.
+Fetch DK1's 5-minute CO₂ intensity for the past 24 hours using `get_co2_emissions`. Use `search_datasets` to find a day-ahead electricity price dataset, then `get_dataset` to retrieve its available DK1 price records. Summarize the historical CO₂ intensity and identify the cheapest periods based on electricity prices.
 
 **Claude Team or Enterprise**
 
